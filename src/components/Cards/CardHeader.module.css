@@ -3,9 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 1.5rem;
   padding: 1rem;
-  background-color: #f8f8f8;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,7 +29,7 @@
 .button {
   padding: 0.75rem 1.25rem;
   border: none;
-  background-color: #3d1edd;
+  background-color: #f53f8a;
   color: #ffffff;
   cursor: pointer;
   font-weight: 600;
@@ -42,7 +40,7 @@
 }
 
 .button:hover:not(:disabled) {
-  background-color: #434190;
+  background-color: #DC0B61;
   transform: translateY(-0.125rem);
 }
 

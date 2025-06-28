@@ -10,11 +10,11 @@ export const Quote = (): React.ReactElement => {
         <div className={styles.author}>
           <img src={avatarImage} alt="Zhao Cui" className={styles.photo} />
           <blockquote className={styles.text}>
-            <p>Creating an Online Presence is Hard.</p>
-            <p>Jobly Makes it Easy for Recruiters to See You.</p>
+            <p>Не оставим наедине с трудностями.</p>
+            <p>Поддержим, выслушаем, дадим совет. </p>
           </blockquote>
-          <p className={styles.name}>Zhao Cui</p>
-          <span className={styles.title}>Founder at Jobly.co</span>
+          <p className={styles.name}>Виолетта</p>
+          <span className={styles.title}>Основатель онлайн-школы. Турбо — это настоящая семья.</span>
         </div>
       </div>
     </section>

@@ -1,13 +1,13 @@
 .info {
-  background-color: #fff;
-  padding: 1.25rem;
+  background-color: #EDDAFF;
   text-align: center;
 }
 
 .title {
   font-size: 2rem;
   color: #333;
-  margin-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .titleLink {

@@ -1,6 +1,6 @@
 .join {
   padding: 0;
-  background-color: #0c0909;
+  background-color: #292037;
 }
 
 .content {
@@ -28,7 +28,7 @@
   display: inline-block;
   padding: 0.625rem 1.25rem;
   border-radius: 0.25rem;
-  background-color: #3d1edd;
+  background-color: #EDF2FF;
   color: #fff;
   border-radius: 0;
   text-decoration: none;

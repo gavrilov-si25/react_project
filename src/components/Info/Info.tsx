@@ -9,7 +9,7 @@ export const Info = (): React.ReactElement => (
   <section className={styles.info}>
     <h2 className={styles.title}>
       <Link to={`/cards?limit=${INFO_LINK_LIMIT}`} className={styles.titleLink}>
-        Everything you want to know in one place. Click!
+        Онлайн-школа, которой доверяют
       </Link>
     </h2>
     <CardList limit={CARD_LIST_LIMIT} />
