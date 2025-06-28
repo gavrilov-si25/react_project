@@ -5,6 +5,8 @@
 Макет:  
 https://www.figma.com/design/u1fHPkVcFOPQjcQq3ZSnmr/Web.Jobly?node-id=0-1&node-type=canvas&t=51zzRpwNF1biqww6-0
 
+Предметная область - онлайн-школа
+
 **Модуль 3.**
 
 Задание 1. - **выполнено**
@@ -21,7 +23,7 @@ https://www.figma.com/design/u1fHPkVcFOPQjcQq3ZSnmr/Web.Jobly?node-id=0-1&node-t
 
 ## Описание проекта
 
-**Jobly** — одностраничное приложение, реализованное на Vite + React + TypeScript.
+Это одностраничное приложение, реализованное на Vite + React + TypeScript.
 Цель: продемонстрировать навигацию, загрузку данных из внешнего API, работу со слайдерами и модальными окнами.
 
 Основные функции:
@@ -151,7 +153,7 @@ https://www.figma.com/design/u1fHPkVcFOPQjcQq3ZSnmr/Web.Jobly?node-id=0-1&node-t
 
 1. **Клонировать репозиторий**
    ```bash
-   git clone https://github.com/gavrilov-si25/my-react-app.git
+   git clone https://github.com/gavrilov-si25/react_project.git
    cd my-react-app
    ```
 
