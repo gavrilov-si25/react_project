@@ -43,7 +43,7 @@
 }
 
 .link:hover {
-  color: #5a67d8;
+  color: #DC0B61;
 }
 
 .linkb {
@@ -65,24 +65,24 @@
 }
 
 .signUp {
-  background-color: #3d1edd;
+  background-color: #f53f8a;
   color: #fff;
   border: none;
 }
 
 .signUp:hover {
-  background-color: #434190;
+  background-color: #DC0B61;
 }
 
 .logIn {
   box-sizing: border-box;
-  background: none;
-  color: #121212;
+  background: #694db4;
+  color: #e5defd;
   border: 1px solid #e5defd;
 }
 
 .logIn:hover {
-  background-color: #f5f0ff;
+  background-color: #594199;
 }
 
 @media (max-width: 768px) {
@@ -94,5 +94,13 @@
   .nav {
     flex-direction: column;
     gap: 0.625rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .linkb {
+    padding: calc(0.875rem * 0.8) calc(2rem * 0.8);
+    font-size: calc(16px * 0.8);
+    gap: calc(0.625rem * 0.8);
   }
 }

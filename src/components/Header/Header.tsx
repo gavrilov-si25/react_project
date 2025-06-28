@@ -18,13 +18,13 @@ export const Header = ({ onLoginClick, onSignUpClick }: HeaderProps): React.Reac
         </div>
         <nav className={styles.nav}>
           <Link to="/" className={styles.link}>
-            For Recruiters
+            Направления
           </Link>
           <button onClick={onSignUpClick} className={`${styles.linkb} ${styles.signUp}`}>
-            Sign Up
+            Вводный урок
           </button>
           <button onClick={onLoginClick} className={`${styles.linkb} ${styles.logIn}`}>
-            Log in
+            Войти
           </button>
         </nav>
       </div>

@@ -16,19 +16,18 @@ export const Hero = (): React.ReactElement => {
     <section className={styles.hero}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Candidates with Creative & <br /> Engineering Backgrounds
+          Гарантированная подготовка к ЕГЭ/ОГЭ или обучение — бесплатно
         </h1>
         <p className={styles.text}>
-          This is the place to show yourself and land entry level jobs at cutting-edge companies. Launch your career
-          here.
+          Гарантированное поступление в вуз на бюджет — или мы вернем деньги. У нас есть все, чтобы ты смог подготовиться к ЕГЭ на максимум. Наша школа — одна из самых быстрорастущих онлайн-школ, где тебя не просто готовят к ЕГЭ — а ведут до поступления. 
         </p>
         <Link to="/" className={styles.cta}>
-          Join Now
+          Получить консультацию
         </Link>
         <p className={styles.text}>
-          Looking for candidates?{' '}
+          Попробуй сейчас на бесплатном{' '}
           <Link to="/" className={styles.link}>
-            Hire now
+            вводном уроке
           </Link>
         </p>
         <div className={styles.gradient}>
