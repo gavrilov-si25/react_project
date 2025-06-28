@@ -1,0 +1,22 @@
+.info {
+  background-color: #fff;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2.5rem;
+}
+
+.titleLink {
+  text-decoration: none;
+  color: #3d1edd;
+}
+
+@media (max-width: 360px) {
+  .titleLink {
+    font-size: 1.5rem;
+  }
+}
