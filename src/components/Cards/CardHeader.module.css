@@ -40,7 +40,7 @@
 }
 
 .button:hover:not(:disabled) {
-  background-color: #DC0B61;
+  background-color: #dc0b61;
   transform: translateY(-0.125rem);
 }
 

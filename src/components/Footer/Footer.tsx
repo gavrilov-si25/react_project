@@ -9,7 +9,7 @@ export const Footer = (): React.ReactElement => {
         <div className={styles.left}>
           <img src={logo2Image} alt="Jobly Logo" className={styles.logo} />
           <p className={styles.text}>Готовим к ЕГЭ эффективно и с душой. Наши ученики поступают в топовые вузы.</p>
-          <p className={styles.text}>© 2025 ТУРБО ЕГЭ. Онлайн-школа, которой доверяют.</p>
+          <p className={styles.text}>© 2025 ПОДГОТОВКА К ЕГЭ. Онлайн-школа, которой доверяют.</p>
         </div>
         <div className={styles.right}>
           <Link to="/" className={styles.link}>

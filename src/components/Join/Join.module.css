@@ -28,7 +28,7 @@
   display: inline-block;
   padding: 0.625rem 1.25rem;
   border-radius: 0.25rem;
-  background-color: #EDF2FF;
+  background-color: #f53f8a;
   color: #fff;
   border-radius: 0;
   text-decoration: none;
@@ -43,7 +43,7 @@
 }
 
 .button:hover {
-  background-color: #434190;
+  background-color: #dc0b61;
 }
 
 .image {
@@ -52,19 +52,33 @@
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 1440px) {
+  .title {
+    font-size: 2rem;
+  }
+  .text {
+    padding-top: 1.25rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    gap: 1rem;
   }
   .image {
     width: 90%;
-    margin-top: 1.25rem;
+    margin-top: 1rem;
   }
-}
-
-@media (max-width: 360px) {
-  .title {
-    font-size: 1.75rem;
+  .button {
+    margin: 0 auto;
   }
 }

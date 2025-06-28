@@ -6,11 +6,9 @@ export const Join = (): React.ReactElement => (
   <section className={styles.join}>
     <div className={styles.content}>
       <div className={styles.text}>
-        <h2 className={styles.title}>
-          Set up your profile. <br /> Let jobs find you.
-        </h2>
+        <h2 className={styles.title}>Запишитесь на вводный урок. Это бесплатно.</h2>
         <Link to="/cards" className={styles.button}>
-          Join Now
+          Записаться на урок
         </Link>
       </div>
       <img src={jobImage} alt="Join" className={styles.image} />

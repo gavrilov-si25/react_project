@@ -13,11 +13,8 @@ export const Slider = (): React.ReactElement => {
 
   return (
     <section className={styles.slider}>
-      <h3 className={styles.title}>Connect With Slider</h3>
-      <p className={styles.text}>
-        Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly
-        qualified job!
-      </p>
+      <h3 className={styles.title}>Единый тариф для всех</h3>
+      <p className={styles.text}>Всё включено — без доплат. Мы продумали всё для комфортного старта в учёбе.</p>
       <div className={styles.sliderArea}>
         <SliderTemplate
           images={slides}

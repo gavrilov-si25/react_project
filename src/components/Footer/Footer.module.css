@@ -53,7 +53,7 @@
 }
 
 .link:hover {
-  color: #DC0B61;
+  color: #dc0b61;
 }
 
 .link:nth-child(1)::after {

@@ -13,8 +13,11 @@ export const Quote = (): React.ReactElement => {
             <p>Не оставим наедине с трудностями.</p>
             <p>Поддержим, выслушаем, дадим совет. </p>
           </blockquote>
-          <p className={styles.name}>Виолетта</p>
-          <span className={styles.title}>Основатель онлайн-школы. Турбо — это настоящая семья.</span>
+          <p className={styles.name}>Основатель онлайн-школы</p>
+          <span className={styles.title}>
+            Наша школа - настоящая семья. Поддержим, выслушаем, дадим совет. Также у нас есть вебинары с психологом о
+            выгорании и бережной поддержке себя в этот непростой период.
+          </span>
         </div>
       </div>
     </section>

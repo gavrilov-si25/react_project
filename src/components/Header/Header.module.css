@@ -43,7 +43,7 @@
 }
 
 .link:hover {
-  color: #DC0B61;
+  color: #dc0b61;
 }
 
 .linkb {
@@ -71,7 +71,7 @@
 }
 
 .signUp:hover {
-  background-color: #DC0B61;
+  background-color: #dc0b61;
 }
 
 .logIn {
@@ -102,5 +102,11 @@
     padding: calc(0.875rem * 0.8) calc(2rem * 0.8);
     font-size: calc(16px * 0.8);
     gap: calc(0.625rem * 0.8);
+  }
+}
+
+@media (max-width: 240px) {
+  .logoImg {
+    display: none;
   }
 }

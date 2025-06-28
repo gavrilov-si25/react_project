@@ -18,7 +18,7 @@
   display: inline-block;
   padding: 0.75rem 1.75rem;
   margin-bottom: 1rem;
-  background-color: #3d1edd;
+  background-color: #f53f8a;
   color: #fff;
   border-radius: 0;
   text-decoration: none;
@@ -30,5 +30,5 @@
 }
 
 .button:hover {
-  background-color: #434190;
+  background-color: #dc0b61;
 }

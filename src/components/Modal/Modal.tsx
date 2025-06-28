@@ -37,20 +37,20 @@ export const Modal = ({ onClose, mode }: ModalProps): React.ReactElement => {
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.modal} onClick={e => e.stopPropagation()}>
         <form className={styles.form} onSubmit={handleSubmit(onSubmit)} noValidate>
-          <h2 className={styles.title}>{mode === 'login' ? 'Login' : 'Register'}</h2>
+          <h2 className={styles.title}>{mode === 'login' ? 'Вход' : 'Необходимо зарегистрироваться'}</h2>
 
           <label htmlFor="name" className={styles.label}>
-            Name:
+            Имя:
           </label>
           <input
             id="name"
             type="text"
             className={styles.input}
             {...register('name', {
-              required: 'Name is required',
+              required: 'Имя обязательно',
               minLength: {
                 value: MIN_NAME_LENGTH,
-                message: `The name must contain at least ${MIN_NAME_LENGTH} characters.`,
+                message: `Имя должно содержать не менее ${MIN_NAME_LENGTH} символов.`,
               },
             })}
           />
@@ -59,17 +59,17 @@ export const Modal = ({ onClose, mode }: ModalProps): React.ReactElement => {
           {mode === 'register' && (
             <>
               <label htmlFor="email" className={styles.label}>
-                Email:
+                Почта:
               </label>
               <input
                 id="email"
                 type="email"
                 className={styles.input}
                 {...register('email', {
-                  required: 'Email is required',
+                  required: 'Почта обязательна',
                   pattern: {
                     value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                    message: 'Invalid email format',
+                    message: 'Неверно указана почта',
                   },
                 })}
               />
@@ -78,17 +78,17 @@ export const Modal = ({ onClose, mode }: ModalProps): React.ReactElement => {
           )}
 
           <label htmlFor="password" className={styles.label}>
-            Password:
+            Пароль:
           </label>
           <input
             id="password"
             type="password"
             className={styles.input}
             {...register('password', {
-              required: 'Password is required',
+              required: 'Пароль обязателен',
               minLength: {
                 value: MIN_PASSWORD_LENGTH,
-                message: `Password must be at least ${MIN_PASSWORD_LENGTH} characters long`,
+                message: `Пароль должен содержать не менее ${MIN_PASSWORD_LENGTH} символов`,
               },
             })}
           />
@@ -98,14 +98,14 @@ export const Modal = ({ onClose, mode }: ModalProps): React.ReactElement => {
             <button type="submit" className={styles.primary} disabled={isSubmitting}>
               {isSubmitting
                 ? mode === 'login'
-                  ? 'Logging in...'
-                  : 'Registering...'
+                  ? 'Вход...'
+                  : 'Регистрация...'
                 : mode === 'login'
-                  ? 'Log in'
-                  : 'Register'}
+                  ? 'Войти'
+                  : 'Зарегистрироваться'}
             </button>
             <button type="button" onClick={onClose} className={styles.secondary}>
-              Cancel
+              Отмена
             </button>
           </div>
         </form>

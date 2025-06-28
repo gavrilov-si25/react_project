@@ -7,10 +7,10 @@ export const Connect = (): React.ReactElement => {
       <div className={styles.content}>
         <img src={connectImage} alt="Connect" className={styles.image} />
         <div className={styles.text}>
-          <h3 className={styles.title}>Connect With Recruiter</h3>
+          <h3 className={styles.title}>Удобство обучения</h3>
           <p className={styles.description}>
-            Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find
-            highly qualified job!
+            Все необходимые материалы будут в личном кабинете: расписание, онлайн-занятия и их видеозаписи, конспекты,
+            домашние задания, общение с преподавателем, статистика и многое другое.
           </p>
         </div>
       </div>

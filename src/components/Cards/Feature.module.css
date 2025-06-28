@@ -1,5 +1,5 @@
 .feature {
-  background-color: #ffffff;
+  background-color: #f5efff;
   padding: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-top: 0.25rem solid #cccccc;
@@ -16,7 +16,7 @@
 }
 
 .featureActive {
-  border-top-color: #3d1edd;
+  border-top-color: #f53f8a;
   background-color: #eef0ff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }

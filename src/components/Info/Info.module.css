@@ -1,5 +1,5 @@
 .info {
-  background-color: #EDDAFF;
+  background-color: #eddaff;
   text-align: center;
 }
 
@@ -12,7 +12,7 @@
 
 .titleLink {
   text-decoration: none;
-  color: #3d1edd;
+  color: #292037;
 }
 
 @media (max-width: 360px) {
