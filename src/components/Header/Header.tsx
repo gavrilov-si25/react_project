@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import styles from './Header.module.css';
-import logoImage from '/images/logo.svg';
+import logoImage from '/images/logo.png';
 
 export interface HeaderProps {
   onLoginClick: () => void;

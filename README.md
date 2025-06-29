@@ -52,94 +52,88 @@ https://www.figma.com/design/u1fHPkVcFOPQjcQq3ZSnmr/Web.Jobly?node-id=0-1&node-t
 
 ```
 .
-├── .gitignore
-├── .prettierignore
-├── .prettierrc.json
-├── .vscode
-│   └── settings.json
-├── README.md
 ├── eslint.config.js
 ├── index.html
 ├── jest.config.cjs
-├── package-lock.json
 ├── package.json
+├── package-lock.json
 ├── public
-│   ├── favicon.ico
-│   └── images
-│       ├── avatar.png
-│       ├── connect-image.png
-│       ├── hero-image.png
-│       ├── info-image.png
-│       ├── job-image.png
-│       ├── logo.svg
-│       ├── logo2.png
-│       └── mask.png
+│   ├── favicon.ico
+│   └── images
+│       ├── avatar.png
+│       ├── connect-image.png
+│       ├── hero-image.png
+│       ├── info-image.png
+│       ├── job-image.png
+│       ├── logo.png
+│       └── mask.png
+├── README.md
 ├── src
-│   ├── assets
-│   │   └── styles
-│   │       ├── global.css
-│   │       └── normalize.css
-│   ├── components
-│   │   ├── App.tsx
-│   │   ├── Cards
-│   │   │   ├── Card.module.css
-│   │   │   ├── Card.tsx
-│   │   │   ├── CardHeader.module.css
-│   │   │   ├── CardHeader.tsx
-│   │   │   ├── CardList.module.css
-│   │   │   ├── CardList.tsx
-│   │   │   ├── Feature.module.css
-│   │   │   └── Feature.tsx
-│   │   ├── Connect
-│   │   │   ├── Connect.module.css
-│   │   │   └── Connect.tsx
-│   │   ├── Error
-│   │   │   ├── Error.module.css
-│   │   │   └── Error.tsx
-│   │   ├── Footer
-│   │   │   ├── Footer.module.css
-│   │   │   └── Footer.tsx
-│   │   ├── Header
-│   │   │   ├── Header.module.css
-│   │   │   └── Header.tsx
-│   │   ├── Hero
-│   │   │   ├── Hero.module.css
-│   │   │   └── Hero.tsx
-│   │   ├── Info
-│   │   │   ├── Info.module.css
-│   │   │   └── Info.tsx
-│   │   ├── Join
-│   │   │   ├── Join.module.css
-│   │   │   └── Join.tsx
-│   │   ├── Layout.tsx
-│   │   ├── Main.tsx
-│   │   ├── Modal
-│   │   │   ├── Modal.module.css
-│   │   │   └── Modal.tsx
-│   │   ├── PageTemplate.tsx
-│   │   ├── Preloader
-│   │   │   ├── Preloader.module.css
-│   │   │   └── Preloader.tsx
-│   │   ├── Quote
-│   │   │   ├── Quote.module.css
-│   │   │   └── Quote.tsx
-│   │   ├── Slider
-│   │   │   ├── Slider.module.css
-│   │   │   └── Slider.tsx
-│   │   └── SliderTemplate.tsx
-│   ├── hooks
-│   │   ├── useFetch.test.ts
-│   │   ├── useFetch.ts
-│   │   ├── useModal.test.ts
-│   │   └── useModal.ts
-│   ├── main.tsx
-│   ├── pages
-│   │   ├── CardsPage.tsx
-│   │   ├── HomePage.tsx
-│   │   └── NotFoundPage.tsx
-│   ├── types
-│   │   └── post.ts
-│   └── vite-env.d.ts
+│   ├── assets
+│   │   └── styles
+│   │       ├── global.css
+│   │       └── normalize.css
+│   ├── components
+│   │   ├── App.tsx
+│   │   ├── Cards
+│   │   │   ├── CardHeader.module.css
+│   │   │   ├── CardHeader.tsx
+│   │   │   ├── CardList.module.css
+│   │   │   ├── CardList.tsx
+│   │   │   ├── Card.module.css
+│   │   │   ├── Card.tsx
+│   │   │   ├── Feature.module.css
+│   │   │   └── Feature.tsx
+│   │   ├── Connect
+│   │   │   ├── Connect.module.css
+│   │   │   └── Connect.tsx
+│   │   ├── Error
+│   │   │   ├── Error.module.css
+│   │   │   └── Error.tsx
+│   │   ├── Footer
+│   │   │   ├── Footer.module.css
+│   │   │   └── Footer.tsx
+│   │   ├── Header
+│   │   │   ├── Header.module.css
+│   │   │   └── Header.tsx
+│   │   ├── Hero
+│   │   │   ├── Hero.module.css
+│   │   │   └── Hero.tsx
+│   │   ├── Info
+│   │   │   ├── Info.module.css
+│   │   │   └── Info.tsx
+│   │   ├── Join
+│   │   │   ├── Join.module.css
+│   │   │   └── Join.tsx
+│   │   ├── Layout.tsx
+│   │   ├── Main.tsx
+│   │   ├── Modal
+│   │   │   ├── Modal.module.css
+│   │   │   └── Modal.tsx
+│   │   ├── PageTemplate.tsx
+│   │   ├── Preloader
+│   │   │   ├── Preloader.module.css
+│   │   │   └── Preloader.tsx
+│   │   ├── Quote
+│   │   │   ├── Quote.module.css
+│   │   │   └── Quote.tsx
+│   │   ├── Slider
+│   │   │   ├── Slider.module.css
+│   │   │   └── Slider.tsx
+│   │   └── SliderTemplate.tsx
+│   ├── hooks
+│   │   ├── useFetch.test.ts
+│   │   ├── useFetch.ts
+│   │   ├── useModal.test.ts
+│   │   └── useModal.ts
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── CardsPage.tsx
+│   │   ├── HomePage.tsx
+│   │   └── NotFoundPage.tsx
+│   ├── types
+│   │   └── post.ts
+│   └── vite-env.d.ts
 ├── tsconfig.app.json
 ├── tsconfig.json
 ├── tsconfig.node.json

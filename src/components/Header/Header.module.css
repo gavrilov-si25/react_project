@@ -15,7 +15,8 @@
 }
 
 .logoImg {
-  height: 2.5rem;
+  height: 3em;
+  object-fit: contain;
 }
 
 .logo {
